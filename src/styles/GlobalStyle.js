@@ -15,15 +15,23 @@ const GlobalStyle= createGlobalStyle`
       
     }
     *{
-        padding: 0
-        margin: 0
-        box-sizing: border-box
-        list-style: none
-        text-decoration: none
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2rem;
 
     }
     body{
-        background-color: var(--background-dark-color)
+        background-color: var(--background-dark-color);
+        color: var(--font-light-color);
+    }
+    a{
+        font-family: inherit;
+        color: inherit;
+        font-size: inherit;
     }
 `;
 
